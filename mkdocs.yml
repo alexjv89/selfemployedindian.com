@@ -1,1 +1,18 @@
-site_name: My Docs
+site_name: Self Employed Indian
+theme:
+    name: null
+    custom_dir: 'docs/custom_theme2/'
+    sidebars: 
+        - about
+        - search
+extra:
+    logo: files/self_employed_indian.png
+    sidebars:
+        - about
+        - navigation
+    homepage_sidebars:
+        - about
+        - navigation
+markdown_extensions:
+  - toc:
+      permalink: true
