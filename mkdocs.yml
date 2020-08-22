@@ -13,6 +13,17 @@ extra:
     homepage_sidebars:
         - about
         - navigation
+
+nav:
+    - Thoughts:
+        - Should you be self employed: 'should_you_be_self_employed'
+    - Stack:
+        - Zoho invoice: 'stack/zoho_invoice'
+    - How to: 
+        - Create recurring invoice: 'how_to/create_recurring_invoice_zoho_invoice'
+
+
+
 markdown_extensions:
   - toc:
       permalink: true
